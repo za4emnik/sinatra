@@ -1,0 +1,14 @@
+<h1>Enter Your Numbers</h1>
+<form action="/<%=@method %>" method="<%=@method %>">
+  <label>First number</label>
+    <input type="text" name="first" /><br>
+  <label>Second number</label>
+    <input type="text" name="second" /><br>
+  <label>Choose operation</label>
+    <input type="radio" name = "op" value="plus">+</input>
+    <input type="radio" name = "op" value="minus">-</input>
+    <input type="radio" name = "op" value="div">/</input>
+    <input type="radio" name = "op" value="mult">*</input><br>
+
+    <input type="submit" value="Send">
+</form>
